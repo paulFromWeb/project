@@ -1,0 +1,62 @@
+.productCard {
+  text-align: left;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img {
+    max-width: 600px;
+    width: 100%;
+    max-height: 600px;
+    height: 100%;
+  }
+  & .button__white {
+    background: white;
+    border: 2px solid rgba(243, 243, 243, 1);
+  }
+  &__rightBlock {
+    max-width: 590px;
+    width: 100%;
+    max-height: 600px;
+    height: 100%;
+  }
+  &__title {
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #151411;
+  }
+&__subtitle {
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    max-height: 96px;
+    height: 100%;
+    word-wrap: break-word;
+    color: #afadb5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__price {
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #151411;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+&__buttons button {
+    width: 285px;
+    height: 58px;
+  }
+}

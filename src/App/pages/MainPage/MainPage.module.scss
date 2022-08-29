@@ -1,0 +1,42 @@
+.searchPanel {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: transparent;
+  width: 100%;
+  &__icon {
+    display: block;
+    position: absolute;
+    top: 26px;
+    left: 25px;
+  }
+}
+.totalProducts {
+  &__title {
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #151411;
+    text-align: left;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 29px;
+    grid-row-gap: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .totalProducts__cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

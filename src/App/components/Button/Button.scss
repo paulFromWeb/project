@@ -1,0 +1,33 @@
+.button {
+  width: 138px;
+  height: 54px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-family: Eudoxus Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  &_disabled {
+    background: #d9d9d9;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &_color-primary {
+    background: #518581;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  &_color-secondary {
+    background: #d9d9d9;
+  }
+}
+
+.loaderClasses path {
+  fill: white;
+}

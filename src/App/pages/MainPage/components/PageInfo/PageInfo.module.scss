@@ -1,0 +1,25 @@
+.pageTitle {
+  margin: 100px auto 80px auto;
+  &__title {
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    color: #151411;
+    margin: 0;
+  }
+  &__subtitle {
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #afadb5;
+    margin: 0 auto;
+    width: 600px;
+    height: 64px;
+  }
+}
